@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  font-family: "Inter";
+  color: white;
+  margin-left: 16px;
+  border-color: rgb(47, 51, 54);
+}
+
+.wd-section-ab {
+  border-color: rgb(47, 51, 54);
+  border-style: solid;
+  height: 150px;
+}
+
+.wd-search-bar {
+  border-radius: 50px;
+  background-color: darkgray;
+  margin: 16px;
+}
+
+.wd-gear-symbol {
+  float: right;
+  padding: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(110, 118, 125);
+}
+
+.wd-first-topic {
+  text-decoration: underline;
+  color: rgb(29, 161, 242);
+}
+
+.wd-topic {
+  float: left;
+  color: rgb(110, 118, 125);
+  padding: 16px;
+}
+
+
+.wd-suggested-posts {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+  border-style: solid;
+  border-color: rgb(47, 51, 54);
+  padding: 16px;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wd-suggested-post-title {
+  color: white;
+  font-weight: bold;
+
+}
+
+
+.wd-images {
+  border-radius: 10px;
+  float: right;
+}
+
+

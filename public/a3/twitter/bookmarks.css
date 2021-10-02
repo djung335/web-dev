@@ -1,0 +1,94 @@
+body {
+  background-color: black;
+  font-family: "Inter";
+  color: white;
+  margin-left: 16px;
+  border-color: rgb(47, 51, 54);
+  font-size: 13px;
+  max-width: 600px;
+
+}
+
+.wd-bookmark {
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.wd-bookmarks-title {
+  padding-top: 12px;
+  padding-left: 16px;
+  font-size: 20px;
+}
+
+.wd-bookmarks-handle {
+  padding-bottom: 12px;
+  padding-left: 16px;
+  color: lightgray;
+}
+
+.wd-prof-pic {
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-right: 16px;
+  border-radius: 48px;
+
+}
+
+.wd-tweet {
+  display: flex;
+  flex-direction: row;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.wd-tweet-right {
+  color: white;
+}
+
+
+.wd-winter {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.wd-tweeter-handle {
+  color: lightgray;
+}
+
+.wd-tweet-bottom {
+  font-size: 15px;
+  color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+
+}
+
+.wd-tweet-bottom-title {
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.wd-reaction-singular {
+  float: left;
+  padding: 16px;
+}
+
+.wd-like {
+  color: red;
+}
+
+p {
+  max-width: 506px
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+}
