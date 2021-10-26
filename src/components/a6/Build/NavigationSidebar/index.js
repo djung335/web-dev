@@ -14,37 +14,37 @@ const NavigationSidebar = ({active = "explore"}) => {
             <i className="fas fa-home"></i><span
               className="d-sm-none d-md-inline-block ms-1 d-md-none d-lg-inline-block d-lg-none d-xl-inline-block">  Home</span></a>
 
-          <a href="#"
+          <a href="explore.html"
              className={`list-group-item list-group-item-action ${active === "explore" ? "active" : ""}`}>
             <i className="fas fa-hashtag"></i><span
               className="d-sm-none d-md-inline-block ms-1 d-md-none d-lg-inline-block d-lg-none d-xl-inline-block"> Explore</span></a>
 
-          <a href="../../twitter/notifications.html"
+          <a href="notifications.html"
              className={`list-group-item list-group-item-action ${active === "notifications" ? "active" : ""}`}>
             <i className="fas fa-bell"></i> <span
               className="d-sm-none d-md-inline-block ms-1 d-md-none d-lg-inline-block d-lg-none d-xl-inline-block">  Notifications</span></a>
 
-          <a href="../../twitter/messages.html"
+          <a href="messages.html"
              className={`list-group-item list-group-item-action ${active === "messages" ? "active" : ""}`}>
             <i className="fas fa-envelope"></i> <span
               className="d-sm-none d-md-inline-block ms-1 d-md-none d-lg-inline-block d-lg-none d-xl-inline-block">  Messages</span></a>
 
-          <a href="../../twitter/bookmarks.html"
+          <a href="bookmarks.html"
              className={`list-group-item list-group-item-action ${active === "bookmarks" ? "active" : ""}`}>
             <i className="fas fa-bookmark"></i> <span
               className="d-sm-none d-md-inline-block ms-1 d-md-none d-lg-inline-block d-lg-none d-xl-inline-block">  Bookmarks</span></a>
 
-          <a href="../../twitter/lists.html"
+          <a href="lists.html"
              className={`list-group-item list-group-item-action ${active === "lists" ? "active" : ""}`}>
             <i className="fas fa-list"></i> <span
               className="d-sm-none d-md-inline-block ms-1 d-md-none d-lg-inline-block d-lg-none d-xl-inline-block">  Lists</span></a>
 
-          <a href="../../twitter/profile.html"
+          <a href="profile.html"
              className={`list-group-item list-group-item-action ${active === "profile" ? "active" : ""}`}>
             <i className="fas fa-user"></i> <span
               className="d-sm-none d-md-inline-block ms-1 d-md-none d-lg-inline-block d-lg-none d-xl-inline-block">  Profile</span></a>
 
-          <a href="../../twitter/more.html"
+          <a href="more.html"
              className={`list-group-item list-group-item-action ${active === "more" ? "active" : ""}`}>
             <i className="fas fa-ellipsis-h"></i> <span
               className="d-sm-none d-md-inline-block ms-1 d-md-none d-lg-inline-block d-lg-none d-xl-inline-block">  More</span></a>

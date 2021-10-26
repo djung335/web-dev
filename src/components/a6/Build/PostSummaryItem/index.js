@@ -28,7 +28,7 @@ const PostSummaryItem = ({
               </div>
               <div className="col">
                 <img className="rounded" src={post.image} width="48px"
-                     height="48px"></img>
+                     height="48px" alt="post picture"></img>
               </div>
             </div>
           </div>
