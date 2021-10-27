@@ -38,7 +38,7 @@ const ExploreComponent = () => {
 
         <div className="card text-white mt-2 mb-2">
           <img className="card-img" src="../../images/spaceship.jpg"
-               />
+               alt="Card"/>
           <div className="card-img-overlay d-flex align-items-end">
             <h5 className="card-title fw-bold">SpaceX's Starship</h5>
           </div>
