@@ -13,7 +13,7 @@ const TweetListItem = ({tweet}) => {
         <table>
           <tr>
             <td className="align-text-top">
-              <img className="rounded-circle wd-avatar-image"
+              <img className="rounded-circle wd-avatar-image" alt="whatever"
                    src={tweet['logo-image']}/>
             </td>
             <td className="ps-3" style={{width: '100%'}}>
@@ -27,7 +27,7 @@ const TweetListItem = ({tweet}) => {
               </div>
               {
                 tweet.attachments && tweet.attachments.image &&
-                <img src={tweet.attachments.image}
+                <img src={tweet.attachments.image} alt="whatever"
                      className="mt-2 wd-border-radius-20px"
                      style={{width: "100%"}}/>
               }
