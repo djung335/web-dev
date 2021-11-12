@@ -1,7 +1,7 @@
 import HelloWorld from "./components/a6/HelloWorld";
 import Practice from "./components/a8/Practice";
 import Build from "./components/a8/Build";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, HashRouter, Route} from "react-router-dom";
 import tweets from "../src/components/a8/Build/reducers/tweets";
 import who from "../src/components/a8/Build/reducers/who";
 import {combineReducers, createStore} from "redux";
@@ -14,7 +14,7 @@ const store = createStore(reducer);
 function App() {
   return (
       <Provider store={store}>
-        <BrowserRouter>
+        <HashRouter>
           <div className="container">
             <Route path="/a6/hello" exact={true}>
               <HelloWorld/>
@@ -30,7 +30,7 @@ function App() {
               <ExploreScreen/>
             </Route>
           </div>
-        </BrowserRouter>
+        </HashRouter>
       </Provider>
   );
 }
