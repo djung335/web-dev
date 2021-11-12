@@ -1,7 +1,7 @@
 import HelloWorld from "./components/a6/HelloWorld";
 import Practice from "./components/a8/Practice";
 import Build from "./components/a8/Build";
-import {BrowserRouter, HashRouter, Route} from "react-router-dom";
+import {HashRouter, Route} from "react-router-dom";
 import tweets from "../src/components/a8/Build/reducers/tweets";
 import who from "../src/components/a8/Build/reducers/who";
 import {combineReducers, createStore} from "redux";
