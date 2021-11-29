@@ -31,8 +31,8 @@ export const updateMovie = (movie) =>
       }
     }).then(response => response.json());
 
+const service = {
+  findAllMovies, deleteMovie, createMovie, findMovieById, updateMovie
+};
 
-
-// export default {
-//   findAllMovies, deleteMovie, createMovie, findMovieById, updateMovie
-// };
+export default service;
